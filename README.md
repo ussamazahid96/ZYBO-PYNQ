@@ -1,2 +1,2 @@
 # ZYBO-PYNQ
-Board files for building PYNQ linux for Zybo
+Paste it to PYNQ/boards/ of the original Xilinx PYNQ repo and run sdbuild with make BOARDS=Zybo.
