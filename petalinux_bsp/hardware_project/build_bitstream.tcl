@@ -18,6 +18,3 @@ file copy -force ./${overlay_name}/${overlay_name}.sdk/${overlay_name}.hdf .
 
 # move and rename bitstream to final location
 file copy -force ./${overlay_name}/${overlay_name}.runs/impl_1/${design_name}_wrapper.bit ${overlay_name}.bit
-
-# copy hwh files
-file copy -force ./${overlay_name}/${overlay_name}.srcs/sources_1/bd/${design_name}/hw_handoff/${design_name}.hwh ${overlay_name}.hwh
